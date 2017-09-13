@@ -1,0 +1,1617 @@
+/*首页*/
+
+.wrap {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.wrapL15 {
+    padding: 0 0 0 15px;
+    box-sizing: border-box;
+}
+
+.bg-blue {
+    background: #142f5c;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-ee {
+    background: #eee;
+}
+
+.head {
+    line-height: 20px;
+    overflow: hidden;
+    height: 20px;
+    position: relative;
+}
+
+.head a {
+    display: block;
+    position: absolute;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png);
+    background-size: 25px;
+}
+
+.head a.lef {
+    left: 15px;
+    top: 3px;
+    width: 20px;
+    height: 14px;
+}
+
+.head a.rig {
+    right: 15px;
+    top: 0px;
+    width: 18px;
+    height: 19px;
+    background-position: 0 -19px;
+}
+
+#teacherInfo {
+    box-sizing: border-box;
+    position: relative;
+}
+
+#teacherInfo .lef,
+#teacherInfo .rig {
+    position: absolute;
+    top: 20px;
+}
+
+#teacherInfo .lef {
+    left: 15px;
+}
+
+#teacherInfo .lefColumn {
+    border: #8c9ab3 solid 2px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+#teacherInfo .lef img {
+    width: 49px;
+    height: 49px;
+    border-radius: 999px;
+}
+
+#teacherInfo .rig {
+    right: 0px;
+}
+
+#teacherInfo .rig a {
+    display: block;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+#teacherInfo .mid {
+    padding: 12px 80px 20px 45px;
+}
+
+
+
+
+
+
+/*20170807 modi*/
+
+#teacherInfo .mid i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 2px 0 0 10px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png) no-repeat 0 -68px;
+    background-size: 25px;
+    vertical-align: top;
+}
+
+#teacherInfo .mid i.ico-rig {
+    background-position: 0 -87px;
+}
+
+#teacherInfo .mid h5 {
+    padding-top: .15rem;
+    vertical-align: top;
+}
+
+#teacherInfo .mid h5 img {
+    width: 16px;
+    height: 16px;
+    margin: 2px 0 0 10px;
+}
+
+#zbInfo {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+#zbInfo .txt-lef span {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#zbInfo .txt-lef span.txt-r {
+    color: #999;
+    border-left: #999 solid 1px;
+}
+
+#zbInfo:after,
+.plList:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 200%;
+    height: 1px;
+    border-bottom: #ccc solid 1px;
+    transform-origin: 0 0;
+    transform: scale(0.5, 0.5);
+}
+
+#zbInfo .zbInfo-rig {
+    float: right;
+    vertical-align: top;
+}
+
+#zbInfo .zbInfo-rig span,
+#zbInfo .zbInfo-rig i {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#zbInfo .zbInfo-rig span {
+    padding: 0 15px 0 10px;
+}
+
+#zbInfo .zbInfo-rig i {
+    width: 11px;
+    height: 13px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png) no-repeat 0 -111px;
+    background-size: 25px;
+    margin-top: 17px;
+}
+
+#zbInfo .zbInfo-rig i.hdzb {
+    width: 15px;
+    height: 14px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/hdzb.png) no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+}
+
+#zbInfo .zbInfo-rig i.close {
+    background-position: 0 -43px;
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+}
+
+.infoHide {
+    color: #a2aec1;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.infoHide dl {
+    padding-bottom: 10px;
+}
+
+.infoHide dl dt,
+.infoHide dl dd {
+    float: left;
+    line-height: 14px;
+}
+
+.infoHide dl dt {
+    width: 12px;
+    height: 14px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png) no-repeat 0 -129px;
+    background-size: 25px;
+    margin-right: 10px;
+}
+
+.infoHide dl dt.two {
+    width: 14px;
+    height: 11px;
+    background-position: 0 -149px;
+}
+
+.infoHide .tag b,
+.infoHide .tag span {
+    display: inline-block;
+}
+
+.infoHide .tag span {
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: #bec4cf;
+    margin-right: 10px;
+}
+
+.infoHide .infoTxt {
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.sidebar,
+.loginbar {
+    background: #fff;
+    line-height: 50px;
+    font-size: 16px;
+    position: fixed;
+    top: 0px;
+    width: 80%;
+    height: 100%;
+    z-index: 11;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    left: -80%;
+    padding-left: 15px;
+}
+
+.sidebar a,
+.loginbar-a a {
+    display: block;
+    border-bottom: 1px solid #ededed;
+}
+
+.loginbar {
+    right: -80%;
+}
+
+.loginbar .login-bg {
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/login-bg.jpg) no-repeat;
+    background-size: 100%;
+    height: 130px;
+    color: #fff;
+    padding-top: 39px;
+}
+
+.login-bg a {
+    display: inline-block;
+    width: 63px;
+    height: 63px;
+    border-radius: 999px;
+}
+
+.login-bg a img {
+    width: 60px;
+    height: 60px;
+    border-radius: 999px;
+    border: #fb9a85 solid 2px;
+}
+
+.loginbar-a {
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.loginbar-a a {
+    vertical-align: top;
+}
+
+.loginbar-a a span {
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    margin-right: 10px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png) no-repeat 0 -167px;
+    background-size: 25px;
+    margin-top: 13px;
+    vertical-align: top;
+}
+
+.mask,
+.mask2,
+.mask-attend,
+.mask-edit {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.arrowB {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.arrowB a {
+    display: inline-block;
+    border-right: solid 1px #a2aec1;
+    border-top: solid 1px #a2aec1;
+    width: 16px;
+    height: 16px;
+    transform: rotate(135deg);
+    transition: ease-in 0.2s;
+}
+
+.arrowB a.arrowUp {
+    transform: rotate(-45deg);
+    transition: ease-in 0.2s;
+    margin-bottom: -7px;
+}
+
+#menu {
+    box-sizing: border-box;
+}
+
+#menu a {
+    display: inline-block;
+    width: 18.6%;
+    line-height: 50px;
+    text-align: center;
+}
+
+#menu a span {
+    display: inline-block;
+    line-height: 50px;
+}
+
+#menu a span.on {
+    color: #ee5050;
+    border-bottom: 1px solid #ee5050;
+}
+
+#menu a:first-child {
+    width: 20%;
+}
+
+#menu a:last-child {
+    width: 24%;
+}
+
+
+
+
+
+
+/*课程*/
+
+.sectionB {
+    background: #fff;
+    margin-top: 10px;
+}
+
+.sectionB2 {
+    margin-top: 0px;
+}
+
+.sectionB h5 {
+    line-height: 50px;
+    position: relative;
+    font-size: 14px;
+}
+
+.sectionB h5 a,
+.sectionB h5 span {
+    display: inline-block;
+}
+
+.sectionB h5 span {
+    display: inline-block;
+    line-height: 14px;
+    border-left: solid 1px #ee5050;
+    padding-left: 15px;
+}
+
+.sectionB h5 a {
+    display: inline-block;
+    float: right;
+}
+
+.sectionB h5:after,
+.cbList:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 200%;
+    height: 1px;
+    border-bottom: #eee solid 1px;
+    transform-origin: 0 0;
+    transform: scale(0.5, 0.5);
+}
+
+.sectionB .videoB {
+    background: #ccc;
+    width: 100%;
+    height: 211px;
+    position: relative;
+}
+
+.sectionB .videoB2 {
+    background: #000;
+}
+
+.sectionB .videoB i,
+.cbList .cb-video i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.sectionB .courseList {
+    padding: 15px 0;
+    position: relative;
+    border-bottom: #eee solid 1px;
+}
+
+.sectionB .courseList dt {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+.sectionB .courseList dt img {
+    width: 115px;
+    height: 65px;
+}
+
+.sectionB .courseList dd {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 130px;
+}
+
+.sectionB .courseList dd h4 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sectionB .courseList dd time {
+    color: #999;
+    line-height: 38px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.starbg {
+    margin-right: 5px;
+    background: #efefef;
+    width: 80px;
+    height: 13px;
+}
+
+.starbg .schedule {
+    width: 0%;
+    height: 13px;
+    background: #EE5050;
+}
+
+.starbg .schedule .star {
+    width: 80px;
+    height: 13px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/toubing.png) no-repeat;
+}
+
+.noPlayback {
+    width: 100%;
+    background: #fff;
+    padding: 50px 0;
+    display: none;
+}
+
+.noPlayback .zwnr {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/zwnr.png) no-repeat;
+    background-size: 100%;
+}
+
+.noPlayback p {
+    text-align: center;
+    font-size: 14px;
+    color: #bebebe;
+    margin-top: 20px;
+}
+
+.cbList {
+    padding: 15px 0;
+    position: relative;
+}
+
+.cbList .cb-video {
+    background: #ccc;
+    width: 100%;
+    height: 194px;
+    position: relative;
+}
+
+.cbList .cb-video span {
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    background: #ee5050;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.cbList .cb-video time {
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    background: #6e6e6e;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+/*文章列表*/
+
+.articleList {
+    padding: 5px 15px 10px 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.articleList h5 {
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 20%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.articleList span.tag {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    width: 17%;
+    color: #ee5050;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 25px;
+    border: #ee5050 solid 1px;
+    font-size: 12px;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+}
+
+.articleList p {
+    line-height: 21px;
+    font-size: 14px;
+    color: #666;
+}
+
+.articleList .clamp {
+    position: relative;
+    line-height: 21px;
+    /* 3 times the line-height to show 3 lines */
+    height: 64px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.articleList .clamp::after {
+    content: "...";
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 20px 1px 45px;
+    background: url(http://css88.b0.upaiyun.com/css88/2014/09/ellipsis_bg.png) repeat-y;
+}
+
+.articleList .readCount {
+    vertical-align: top;
+}
+
+.articleList .readCount i,
+.articleList .readCount span {
+    display: block;
+    float: left;
+}
+
+.articleList .readCount i {
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png) no-repeat 0 -254px;
+    background-size: 25px;
+    margin-top: 1px;
+}
+
+.articleList .readCount span {
+    padding: 0 10px 0px 6px;
+    vertical-align: middle;
+    height: 12px;
+    line-height: 12px;
+    overflow: hidden;
+}
+
+.articleList .readCount span.read {
+    padding-right: 0px;
+}
+
+.articleList .readCount i.pl-ico {
+    width: 13px;
+    height: 11px;
+}
+
+.articleList .readCount i.read-ico {
+    width: 14px;
+    height: 11px;
+    background-position: 0 -270px;
+}
+
+
+
+
+
+
+/*早评密报*/
+
+.bg-red {
+    background: #ee4040;
+}
+
+.mb-header {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    border-bottom: #eee 1px solid;
+}
+
+.mb-header a {
+    display: inline-block;
+    float: left;
+    margin-top: 16px;
+    width: 15px;
+    height: 15px;
+    border-top: #ee4040 solid 1px;
+    border-left: #ee4040 solid 1px;
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+}
+
+#mb .articleList h5 {
+    padding-right: 0;
+}
+
+#teacherInfo .mb-txt {
+    padding-top: 19px;
+    padding-left: 65px;
+}
+
+#teacherInfo .mb-txt2 {
+    padding-left: 0px
+}
+
+#teacherInfo .mb-txt h5 {
+    padding-top: 0px;
+    vertical-align: top;
+}
+
+#teacherInfo .mb-txt p.up-time {
+    color: #f8c2c2;
+    font-size: 12px;
+}
+
+#teacherInfo .rig-mb {
+    right: 15px;
+}
+
+#teacherInfo .rig a.mb-subscribe {
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    color: #ee5050;
+    border-radius: 24px;
+    margin-top: 5px;
+}
+
+#teacherInfo .rig .mb-price {
+    height: 20px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+/*文章详情*/
+
+#detail {
+    padding: .4rem 15px .3rem 15px !important;
+}
+
+#detail .detail-tit {
+    line-height: .64rem;
+    font-weight: bold;
+    font-size: .46rem;
+    color: #333;
+}
+
+#teacherInfo .detail-lef {
+    left: 0px;
+}
+
+#teacherInfo .detail-lef img {
+    width: 36px;
+    height: 36px;
+    border: none;
+}
+
+
+
+
+
+
+/*20170807 modi*/
+
+#teacherInfo .rig a.red {
+    background: #ee5050;
+}
+
+#teacherInfo .rig a.focusout {
+    background: #ddd;
+}
+
+#detail .imgB {
+    padding: 15px 0;
+}
+
+
+.article-btn {
+    padding: .2rem 0 .2rem 0;
+}
+
+.article .disno {
+    font-size: .36rem;
+    color: #333;
+}
+
+.article .disno p {
+    line-height: .52rem;
+    margin-top: .25rem;
+}
+
+#detail a.click-heart {
+    display: block;
+    background: #ee5050;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    height: .9rem;
+    line-height: .9rem;
+}
+
+#detail a.click-heart span {
+    display: inline-block;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/heart.png) no-repeat left center;
+    background-size: 14px;
+    padding-left: 20px;
+}
+
+#detail a.click-heart-bg {
+    background: #f5f5f5;
+}
+
+#detail a.click-heart-bg span {
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/heart-red.png) no-repeat left center;
+    background-size: 14px;
+    color: #999;
+}
+
+.pinglun .pl-tit {
+    height: .75rem;
+    line-height: .85rem;
+}
+
+.pinglun .pl-rig span {
+    border-right: #999 solid 1px;
+    padding-right: .2rem;
+}
+
+.pinglun .pl-rig a {
+    padding-left: .1rem;
+}
+
+.pinglun .pl-rig span,
+.pinglun .pl-rig a {
+    display: inline-block;
+    height: .32rem;
+    line-height: .32rem;
+    overflow: hidden;
+}
+
+.plList {
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    box-sizing: border-box;
+}
+
+.plList dt {
+    width: 26px;
+    height: 26px;
+}
+
+.plList dt img {
+    border-radius: 26px;
+    width: 100%;
+    height: 100%;
+}
+
+.plList dd {
+    width: 92.8%;
+    padding-left: 13px;
+    box-sizing: border-box;
+}
+
+.plList dd p.txt {
+    color: #333;
+    font-size: .3rem;
+    margin-top: .2rem;
+}
+
+.jubaoB a {
+    display: inline-block;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos.png) no-repeat;
+    background-size: 25px;
+}
+
+#pl {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#pl .flex span {
+    font-size: .3rem;
+    font-family: 'PingFangSC-Medium';
+}
+
+#pl .flex time {
+    font-size: .28rem;
+}
+
+#pl .readCount i {
+    margin-top: 0px;
+}
+
+.articleList .readCount i.jb-ico {
+    width: 16px;
+    height: 15px;
+    background-position: 0 -286px;
+}
+
+.articleList .readCount i.hf-ico {
+    width: 16px;
+    height: 15px;
+    background-position: 0 -304px;
+}
+
+#pl .readCount span {
+    display: inline-block;
+    width: 36px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    padding-right: 12px;
+}
+
+#pl .readCount span,
+.#pl .readCount i {
+    float: right;
+}
+
+#pl .readCount span.hf {
+    padding-right: 0px;
+}
+
+.jz-txt {
+    line-height: 50px;
+}
+
+
+
+
+
+
+/*编辑器*/
+
+.inputtext {
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    border-top: 1px solid #dddddd;
+}
+
+.inputtext .editour {
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 85%;
+    margin: 8px 0;
+    background: #f5f5f5;
+    line-height: 35px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.inputtext .myface {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/ico2.png) no-repeat 0px -58px;
+    background-size: 75px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.inputtext .editour:before {
+    content: '';
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/ico2.png) no-repeat -55px -30px;
+    background-size: 75px;
+}
+
+.inputtext .editour:after {
+    content: '\8BF4\8BF4\4F60\7684\60F3\6CD5...';
+    width: 100%;
+    display: inline;
+    margin-left: 20px;
+}
+
+.edit {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 23;
+    display: none;
+}
+
+.edit h5 {
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.edit .textareaB {
+    background: #fff;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.edit .textareaB textarea {
+    width: 100%;
+    height: 1.99rem;
+    resize: none;
+    border: none;
+    font-size: 14px;
+}
+
+.sendB {
+    padding: 10px 0;
+}
+
+.sendB a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sendB a.smile {
+    width: 30px;
+    height: 30px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/smile.png) no-repeat;
+    background-size: 30px;
+}
+
+.sendB a.sendBtn {
+    background: #999;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    width: 73px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.myiconsList {
+    width: 100%;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.myiconsList li {
+    padding: 1%;
+    box-sizing: border-box;
+    float: left;
+    width: 16%;
+    font-size: 18px;
+}
+
+.myiconsList li img {
+    width: 100%;
+    max-width: 20px;
+}
+
+.secret {
+    background: #f5f5f5;
+    /*height:4.53rem;*/
+    display: none;
+    margin-top: 10px
+}
+
+.secret-ico span {
+    display: block;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos3.png) no-repeat 0 -46px;
+    background-size: 49px;
+    width: 49px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.secretCon {
+    padding: 15px;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.secretCon .tit {
+    position: relative;
+    border-bottom: #eee solid 1px;
+    line-height: 0.9rem;
+}
+
+.secretCon .tit:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 200%;
+    height: 1px;
+    border-bottom: #eee solid 1px;
+    transform-origin: 0 0;
+    transform: scale(0.5, 0.5);
+}
+
+.secretCon .secret-txt {
+    color: #666;
+    line-height: 21px;
+    padding-top: 10px;
+}
+
+.secretCon a.subscribe {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 0.9rem;
+    background: #ef5e52;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+.top-ico {
+    width: 37px;
+    height: 37px;
+    position: fixed;
+    right: 15px;
+    bottom: 1.31rem;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/icos3.png) no-repeat;
+    background-size: 49px;
+}
+
+
+
+
+
+
+/*举报弹窗*/
+
+.jb-tc {
+    position: fixed;
+    background: #fff;
+    font-size: .28rem;
+    bottom: 0px;
+    width: 100%;
+    height: 6.7rem;
+    text-align: center;
+    display: none;
+    z-index: 22;
+}
+
+.jb-tc .wrapTit {
+    height: 1rem;
+    line-height: 1rem;
+    color: #A0A0A0;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.jb-tc .reportWarning {
+    text-align: left;
+    color: #ee5050;
+    padding-bottom: .3rem;
+    font-size: .24rem;
+    margin-top: .7rem;
+}
+
+.jb-tc .cannelBtn {
+    display: inline-block;
+    position: absolute;
+    right: .4rem;
+    top: .38rem;
+    width: 14px;
+    height: 14px;
+    background: url(http://imgcd.hexun.com/teacher/images/article/tc.png) no-repeat -35px 0;
+    cursor: pointer;
+}
+
+.jb-tc .wrapCon {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: .3rem;
+}
+
+.jb-tc .wrapradio p {
+    font-size: .32rem;
+}
+
+.jb-tc .wrapradio p:last-child {
+    padding-top: .9rem;
+}
+
+.jb-tc .wrapradio p span {
+    display: inline-block;
+}
+
+.jb-tc .wrapradio p span:first-child {
+    float: left;
+    text-align: left;
+}
+
+.jb-tc .wrapradio p span:last-child {
+    float: right;
+    text-align: right;
+}
+
+.jb-tc .wrapradio span i {
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    background: url(http://imgcd.hexun.com/teacher/images/article/tc.png) no-repeat -23px -29px;
+    vertical-align: middle;
+}
+
+.wrapradio span.active i {
+    background-position: 0 -29px;
+}
+
+.jb-tc .wrapReport textarea {
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: .15rem;
+    overflow: hidden;
+    resize: none;
+    padding: .15rem;
+    font-size: .24rem;
+    box-sizing: border-box;
+}
+
+.jb-tc .reportBtn {
+    width: 100%;
+    height: .9rem;
+    background: #ccc;
+    border-radius: 1rem;
+    line-height: .9rem;
+    color: #fff;
+    letter-spacing: .05rem;
+    margin: .25rem 0 .5rem 0;
+}
+
+.jb-tc .reportBtnAct {
+    background: #ee5050;
+}
+
+.jb-suc {
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    margin: 0 auto;
+    z-index: 21;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
+
+.jb-suc p {
+    color: #fff;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/yz-suc.png) no-repeat center 17px;
+    background-size: 40px;
+    padding-top: 67px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+
+.canel-attend {
+    width: 72%;
+    left: 14%;
+    top: 35%;
+    position: fixed;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 16px;
+    display: none;
+    z-index: 24;
+}
+
+.canel-attend h4 {
+    color: #000;
+    text-align: center;
+    line-height: 26px;
+    border-bottom: #d3d3d7 solid 1px;
+    padding: 20px 10px
+}
+
+.canel-attend .btnBox a {
+    width: 50%;
+    box-sizing: border-box;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+.canel-attend .btnBox a.lef {
+    border-right: #d3d3d7 solid 1px;
+    color: #0074ff;
+}
+
+.canel-attend .btnBox a.rig {
+    color: #ee5050;
+}
+
+
+
+
+
+
+/*a股雷达*/
+
+.radar-nav {
+    position: relative;
+    padding: 5px 0;
+}
+
+.radar-nav:before {
+    content: '';
+    width: 200%;
+    height: 1px;
+    border-top: 1px solid #eee;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5, 0.5);
+    transform-origin: 0 0;
+}
+
+.radar-nav dl {
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.radar-nav dl dd {
+    color: #999;
+}
+
+#radar {
+    margin-top: 10px;
+    background: #fff;
+    position: relative;
+}
+
+#radar i {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/suc-icos.png) no-repeat;
+    background-size: 60px;
+    z-index: 23;
+}
+
+#radar i.radar-fail {
+    background-position: 0 -81px;
+}
+
+#radar .radar-tit {
+    padding-right: 15px;
+    position: relative;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+#radar .radar-tit:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 200%;
+    height: 1px;
+    border-bottom: #ddd solid 1px;
+    transform-origin: 0 0;
+    transform: scale(0.5, 0.5);
+}
+
+#radar .radar-tit span.tag {
+    display: block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    border-radius: 25px;
+    background: #eee;
+    margin-top: 15px;
+}
+
+.radarList {
+    padding: 10px 0;
+}
+
+.radarList dl {
+    width: 55.55%;
+    text-align: center;
+}
+
+.radarList dl:first-child {
+    width: 20%;
+}
+
+.radarList dl:last-child {
+    width: 24.45%;
+}
+
+.radarList dt {
+    line-height: 30px;
+    color: #666;
+}
+
+.radarList dt.red {
+    color: #ee5050;
+}
+
+.radarList dd {
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.barB {
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.bar {
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+    background: #ddd;
+    border-radius: 2px;
+}
+
+.bar .redbar {
+    background: #ff5555;
+    width: 10%;
+    height: 2px;
+    overflow: hidden;
+}
+
+#radar .radarList-time {
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+#radar .radarList-time a {
+    display: block;
+    color: #ee5050;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ee5050;
+    border-radius: 25px;
+    width: 68px;
+    font-size: 14px;
+}
+
+#radar .radarList-time2 {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+/*媒体查询*/
+
+@media screen and (max-width:640px) {}
+
+@media screen and (max-width:320px) {
+    /*iphone4*/
+    sectionB .courseList dd time {
+        font-size: 12px;
+        color: #999;
+        line-height: 38px;
+    }
+    .sectionB .courseList dt img {
+        width: 100px;
+        height: 65px;
+    }
+    .sectionB .courseList dd {
+        padding-left: 115px;
+    }
+    .sectionB .courseList dd h4 {
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    /*iphone5、iphone5c、iphone5s、iphone6、iphone6plus*/
+}
+
+@media screen and (min-width:376px) and (max-width:414px) {
+    /*iphone5、iphone5c、iphone5s、iphone6、iphone6plus*/
+}
+
+@media screen and (min-width:415px) and (max-width:860px) {
+    /*iphone5、iphone5c、iphone5s、iphone6、iphone6plus*/
+    html {
+        font-size: 75%;
+    }
+}
+
+.order {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    display: none;
+}
+
+.order .line:first-child {
+    float: left;
+}
+
+.order .line:last-child {
+    float: right;
+}
+
+.order .line {
+    margin-top: .34rem;
+    display: inline-block;
+    width: 25%;
+    border-top: 1px solid #ccc;
+}
+
+.order .txt {
+    color: #ee5050;
+    vertical-align: middle;
+    padding-left: 0.46rem;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/suo.png) left center no-repeat;
+    background-size: contain;
+}
+
+.textareaB .text-edi {
+    box-sizing: border-box;
+    width: 85%;
+    position: absolute;
+    z-index: 99;
+}
+
+.textareaB .text-edi:before {
+    content: '';
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    background: url(http://imgcd.hexun.com/teacher/h5/article/images/ico2.png) no-repeat -55px -30px;
+    background-size: 75px;
+    color: #999;
+}
+
+.textareaB .text-edi:after {
+    content: '请输入您的内容...';
+    width: 100%;
+    display: inline;
+    margin-left: 15px;
+    color: #999;
+}
+
+#likeLogo {
+    text-align: center;
+    margin-bottom: .2rem;
+}
+
+#likeLogo img {
+    width: .45rem;
+    height: .45rem;
+    margin-left: .04rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.allComment {
+    font-size: .32rem;
+}
+
+.readCount {
+    padding-top: .25rem;
+}

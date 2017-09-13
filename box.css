@@ -1,0 +1,90 @@
+.box{
+    position:fixed;
+    float:left;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.footerdiv {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 58px;
+    z-index: 100;
+    float: left;
+}
+.f-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: #000;
+    opacity: .7;
+    z-index: 1;
+}
+.a-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(http://imgzq.hexun.com/caidao/video/img/icos.png) no-repeat;
+    background-position: 0 -34px;
+    background-size: 80px 94px;
+    z-index: 100;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+.f-footer{
+    position: relative;
+    box-sizing:border-box;
+    padding: 10px 0 0px;
+    margin:0 auto;
+    width: 96%;
+    height:48px;
+    z-index: 99;
+}
+.f-logo{
+    float: left;
+    display:block;
+    width:41px;
+    height: 41px;
+    overflow: hidden;
+}
+.f-logo img{
+    width: 100%;
+    height: 100%;
+
+}
+.f-inf{
+    float: left;
+    margin-left:5px;
+    font:10px/20px '\5b5b\4f53';
+    color: #fff;
+    /*transform:scale(0.875);*/
+}
+.f-inf-img{
+    width: 170px;
+    height: 18px;
+    background: url(http://imgzq.hexun.com/caidao/video/img/f-inf.png) no-repeat 0 0;
+    background-size: 100%
+}
+
+.a-down{
+    position: absolute;
+    top:20px;
+    right:12px;
+    display: block;
+    margin-top:0px;
+    margin-right: 8px;
+    width:80px;
+    height: 30px;
+    background: url(http://imgzq.hexun.com/caidao/video/img/icos.png) no-repeat;
+    background-position:0 0;
+    background-size: 80px 102px;
+}
